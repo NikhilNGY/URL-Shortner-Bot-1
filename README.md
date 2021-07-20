@@ -6,9 +6,9 @@ A link shortner telegram bot
 
 ```
 Made with Python3
-(C) @FayasNoushad
+(C) @doreamonfans1
 Copyright permission under MIT License
-License -> https://github.com/FayasNoushad/URL-Shortner-Bot/blob/main/LICENSE
+License -> https://github.com/disneyteam76/URL-Shortner-Bot/blob/patch-1/LICENSE
 ```
 
 ---
@@ -20,7 +20,7 @@ License -> https://github.com/FayasNoushad/URL-Shortner-Bot/blob/main/LICENSE
 <br/>
 
 <p align="left">
-  <a href="https://heroku.com/deploy?template=https://github.com/FayasNoushad/URL-Shortner-Bot/tree/main">
+  <a href="https://heroku.com/deploy?template=https://github.com/Disneyteam76/URL-Shortner-Bot/tree/patch-1">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 </p>
@@ -32,7 +32,7 @@ License -> https://github.com/FayasNoushad/URL-Shortner-Bot/blob/main/LICENSE
 <br/>
 
 ```sh
-git clone https://github.com/FayasNoushad/URL-Shortner-Bot/tree/main
+git clone https://github.com/Disneyteam76/URL-Shortner-Bot/tree/patch-1
 cd URL-Shortner-Bot
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
@@ -60,7 +60,3 @@ python3 main.py
 
 ---
 
-## Credits
-
-- [Fayas Noushad](https://github.com/FayasNoushad)
-- [Pyrogram](https://github.com/pyrogram/pyrogram)
