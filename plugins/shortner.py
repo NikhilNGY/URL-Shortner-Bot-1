@@ -31,7 +31,7 @@ async def short(bot, update):
     link = update.matches[0].group(0)
     shorten_urls = "**--Shorted URLs--**\n"
     
-    # Bit.ly shorten
+    # syshort shorten
     if BITLY_API:
         try:
             s = Shortener(api_key=SYSHORT_API)
