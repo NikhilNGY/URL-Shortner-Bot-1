@@ -20,7 +20,7 @@ License -> https://github.com/disneyteam77/URL-Shortner-Bot/blob/patch-1/LICENSE
 <br/>
 
 <p align="left">
-  <a href="https://heroku.com/deploy?template=https://github.com/Disneyteam77/URL-Shortner-Bot/tree/patch-1">
+  <a href="https://heroku.com/deploy?template=https://github.com/NikhilNGY/URL-Shortner-Bot/tree/patch-1">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 </p>
