@@ -10,7 +10,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyshorteners import Shortener
 
-BITLY_API = os.environ.get("BITLY_API", "")
+SYSHORT_API = os.environ.get("SYSHORT_API", "")
 CUTTLY_API = os.environ.get("CUTTLY_API", "")
 SHORTCM_API = os.environ.get("SHORTCM_API", "")
 
@@ -34,11 +34,11 @@ async def short(bot, update):
     # Bit.ly shorten
     if BITLY_API:
         try:
-            s = Shortener(api_key=BITLY_API)
-            url = s.bitly.short(link)
-            shorten_urls += f"\n**Bit.ly :-** {url}"
+            s = Shortener(api_key=SYSHORT_API)
+            url = s.syshort.short(link)
+            shorten_urls += f"\n**syshort.com :-** {url}"
         except Exception as error:
-            print(f"Bit.ly error :- {error}")
+            print(f"syshort error :- {error}")
     
     # Chilp.it shorten
     try:
